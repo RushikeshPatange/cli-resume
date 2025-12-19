@@ -1,0 +1,47 @@
+{
+  "name": "@rushipatange/cli-resume",
+  "version": "1.0.0",
+  "description": "A beautiful interactive terminal resume",
+  "license": "MIT",
+  "author": "Rushikesh Patange",
+  "main": "index.js",
+  "bin": {
+    "show-resume": "bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rushikeshpatange/cli-resume.git"
+  },
+  "homepage": "https://github.com/rushikeshpatange/cli-resume#readme",
+  "bugs": {
+    "url": "https://github.com/rushikeshpatange/cli-resume/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "resume",
+    "terminal",
+    "interactive"
+  ],
+  "type": "module",
+  "files": [
+    "bin",
+    "src"
+  ],
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.6.2",
+    "gradient-string": "^3.0.0",
+    "inquirer": "^12.3.2",
+    "nanospinner": "^1.2.2",
+    "terminal-link": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
